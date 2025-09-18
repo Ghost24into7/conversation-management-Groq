@@ -124,7 +124,7 @@ No frameworks like LangChain—kept it pure and simple, just like the assignment
 Shoutout to Groq for the speedy AI—made this project fly! Got ideas? Fork the repo and level up. Questions? Open an issue or chat me up. What's next: AI that predicts your jokes? Let's build it! 🚀
 
 <div align="right">
-  <em>Built with ❤️ by [Your Name] on September 14, 2025</em>
+  <em>Built with ❤️ by Myron Correia on September 14, 2025</em>
 </div>
 
 ---
@@ -147,3 +147,4 @@ Our 9 commits tell the full story—from basic code to epic fixes. Check 'em out
 | 9 | Polish: README glow-up | 🌟 |
 
 </details>
+
