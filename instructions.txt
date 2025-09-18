@@ -1,0 +1,67 @@
+
+AI /ML Developer Internship Assignment 
+Objective
+Implement two core tasks using Groq APIs (with OpenAI SDK compatibility). This assignment will test your ability to manage conversational data, perform summarization, and classify user chats with structured extraction — without using frameworks.
+
+
+You must submit your work in Google Colab and also upload the notebook to GitHub for version tracking and evaluation. https://groq.com/ 
+
+Assignment: Conversation Management & Classification using Groq API
+
+Objective
+Implement two core tasks using Groq APIs (with OpenAI SDK compatibility). This assignment will test your ability to manage conversational data, perform summarization, and classify user chats with structured extraction — without using frameworks.
+
+You must submit your work in Google Colab and also upload the notebook to GitHub for version tracking and evaluation.
+
+Task 1: Managing Conversation History with Summarization
+1. Maintain a running conversation history of user–assistant chats.
+2. Implement summarization of conversation history to keep it concise.
+3. Allow customization options for truncation:
+a. Limit by number of conversation turns (e.g., last n messages).
+b. Limit by character/word length.
+
+4. Add periodic summarization:
+a. Perform summarization after every k-th run of the conversation.
+b. Store/replace the summarized version in the conversation history.
+
+5. Demonstrate the functionality by:
+a. Feeding multiple conversation samples.
+b. Showing outputs at different truncation settings.
+c. Showing how summarization happens after every k-th run (e.g., after every 3rd run).
+
+Task 2: JSON Schema Classification & Information Extraction
+
+1. Create a JSON schema to extract 5 details from chats related to information collection (e.g., name, email, phone, location, age).
+
+2. Use OpenAI function calling with Groq API for structured outputs.
+
+3. Demonstrate:
+a. Parsing of at least 3 sample chats.
+b. Validation of outputs against the schema.
+
+Reference guides:
+OpenAI Function Calling: https://platform.openai.com/docs/guides/function-calling
+Groq API with OpenAI Client: https://console.groq.com/docs/openai
+
+Requirements
+1. Strictly no frameworks allowed — only standard Python + requests/openai client.
+2. Use Groq API’s OpenAI-compatible SDK for function calling and completions.
+3. Submission in Google Colab notebook with:
+a. Clean, well-documented code.
+b. Visible outputs for each task.
+c. API keys included in the notebook for test runs.
+4. Push the Colab notebook to GitHub and share the repository link.
+
+Evaluation Criteria
+
+1. Correctness of implementation. 
+2. Proper use of summarization logic, including k-th run summarization.
+3. Accuracy of JSON schema classification and extraction.
+4. Clarity of code, documentation, and output presentation.
+5. Proper GitHub versioning and clean repo structure.
+
+You can update your submission later - if submitting partially. 
+
+*
+Partially Completed
+Completed All Requirements
